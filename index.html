@@ -6,15 +6,18 @@
       <script  src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
       <script src="js/scripts.js"> </script>
       <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
       <title>Programming Language Quiz</title>
     </head>
     <body>
-      <h1>Which Programming Language Should You Learn First?</h1>
-      <p>Answer the questions below to determine which programming language you would benefit the most from at this time!</p>
+      <div class="container" id=header>
+        <h1>Which Programming Language Should You Learn First?</h1>
+        <p>Answer the questions below to determine which programming language you would benefit the most from at this time!</p>
+      </div>
       <div class="container">
         <form id="quiz">
           <div id="question1">
-            <h3>1.) Which of the following statements do you agree with most?</h3>
+            <h5>1.) Which of the following statements do you agree with most?</h5>
             <label>
               <input id="cSharpChoice" type="radio" name="choice1" value="2" checked> I started Epicodus a couple of months ago.
             </label>
@@ -29,7 +32,7 @@
           </div>
           <br>
           <div id="question2">
-            <h3>2.) Which of the following statements do you agree with most?</h3>
+            <h5>2.) Which of the following statements do you agree with most?</h5>
             <label>
               <input id="pythonChoice" type="radio" name="choice2" value="1" checked> I love snakes.
             </label>
@@ -44,7 +47,7 @@
           </div>
           <br>
           <div id="question3">
-            <h3>3.) Which of the following statements do you agree with most?</h3>
+            <h5>3.) Which of the following statements do you agree with most?</h5>
             <label>
               <input id="rubyChoice" type="radio" name="choice3" value="3" checked> I like product names that include alliteration.
             </label>
@@ -59,7 +62,7 @@
           </div>
           <br>
           <div id="question4">
-            <h3>4.) Which of the following statements do you agree with most?</h3>
+            <h5>4.) Which of the following statements do you agree with most?</h5>
             <label>
               <input id="cSharpChoice" type="radio" name="choice4" value="2" checked> I want functions that are easy to implement.
             </label>
@@ -74,7 +77,7 @@
           </div>
           <br>
           <div id="question5">
-            <h3>5.) Which of the following statements do you agree with most?</h3>
+            <h5>5.) Which of the following statements do you agree with most?</h5>
             <label>
               <input id="rubyChoice" type="radio" name="choice5" value="3" checked> Smiling babies are cute.
             </label>
@@ -88,23 +91,23 @@
             </label>
           </div>
           <br>
-          <button type="submit" class="btn btn-success">Show me my match!</button>
+          <button type="submit" class="btn btn-outline-success">Show me my match!</button>
 
           <div id="ruby">
             <br>
-            <h4><strong>Ruby</strong> is the programming language that you should learn first! Click the link the photo below to learn more about your match!</h4>
+            <h6><strong>Ruby</strong> is the programming language that you should learn first! Click the link the photo below to learn more about your match!</h6>
             <a href="https://www.ruby-lang.org/"><img class="results" src="https://www.thoughtco.com/thmb/JpBnEUWE4Szf34r-7z0pKoQUPCs=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/2000px-Ruby-logo-R.svg-56a811b75f9b58b7d0f05e83.jpg" alt="Ruby Programming Logo"><a/>
           </div>
 
           <div id="cSharp">
             <br>
-            <h4><strong>C#</strong> is the programming language that you should learn first! Click the link the photo below to learn more about your match!</h4>
+            <h6><strong>C#</strong> is the programming language that you should learn first! Click the link the photo below to learn more about your match!</h6>
             <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/"><img class="results" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWliL_Yx5s4KAJ9iEzli4IN2hSy5mlXvOrKLTHoe5HOOChlV4Mew&s" alt="C Sharp Logo"></a>
           </div>
 
           <div id="python">
             <br>
-            <h4><strong>Python</strong> is the programming language that you should learn first! Click the link the photo below to learn more about your match!</h4>
+            <h6><strong>Python</strong> is the programming language that you should learn first! Click the link the photo below to learn more about your match!</h6>
             <a href="https://www.python.org"><img class="results" src="https://www.asapdevelopers.com/wp-content/uploads/2017/08/Python_logo_and_wordmark.svg_-e1502721820678-1.png" alt="Python Logo"></a>
           </div>
 

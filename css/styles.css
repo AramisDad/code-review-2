@@ -27,19 +27,27 @@ h1 {
 
 body {
   background-image: linear-gradient(black, blue);
-  color: green;
-  font-family: 'Press Start 2P', cursive;
+  color: #33cc33;
+  font-family: 'Cutive Mono', monospace;
 }
 
-h3 {
+h5 {
   color: white;
   font-family: 'Press Start 2P', cursive;
 }
 
-h4 {
+h6 {
   color: white;
 }
 
 p {
   color: white;
+}
+
+#footer {
+  text-align: center;
+}
+
+#header {
+  width: 500px;
 }
