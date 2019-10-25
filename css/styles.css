@@ -1,3 +1,15 @@
 img {
   width: 500px;
 }
+
+#ruby {
+  display: none;
+}
+
+#cSharp {
+  display: none;
+}
+
+#python {
+  display: none;
+}
