@@ -13,7 +13,6 @@ $(document).ready(function() {
     var question5Score = parseInt($("input:radio[name=choice5]:checked").val());
 
     var totalScore =  parseInt(question1Score) + parseInt(question2Score) + parseInt(question3Score) + parseInt(question4Score) + parseInt(question5Score);
-    alert(totalScore)
 
     if (totalScore >= 11) {
       $("#python").hide();
