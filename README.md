@@ -10,7 +10,7 @@ _This webpage contains a quiz intended for users that want to know what programm
 
 ## Setup/Installation Requirements
 
-* _Clone repository onto your local machine from https://github.com/AramisDad/code-review-2 using terminal_
+* _Clone the repository onto your local machine from https://github.com/AramisDad/code-review-2 using terminal or the command line interpreting application of your choice_
 * _Open index.html with your browser to view and interact with the webpage_
 
 ## Known Bugs

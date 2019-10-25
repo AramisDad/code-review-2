@@ -1,5 +1,6 @@
 img {
   width: 500px;
+  border: 5px dashed green;
 }
 
 #ruby {
@@ -16,4 +17,21 @@ img {
 
 h1 {
   text-align: center;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+
+body {
+  background-color: black;
+  color: green;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h3 {
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h4 {
+  color: white;
 }
