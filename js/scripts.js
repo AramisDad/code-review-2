@@ -20,7 +20,7 @@ $(document).ready(function() {
       $("#ruby").show();
     }
 
-    else if (totalScore <= 5) {
+    else if (totalScore <= 7) {
       $("#cSharp").hide();
       $("#ruby").hide();
       $("#python").show();
