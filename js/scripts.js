@@ -11,9 +11,19 @@ $(document).ready(function() {
     alert(question4Score)
     var question5Score = parseInt($("input:radio[name=choice5]:checked").val())
     alert(question5Score)
+    var totalScore =  parseInt(question1Score) + parseInt(question2Score) + parseInt(question3Score) + parseInt(question4Score) + parseInt(question5Score)
 
-    
+    if (totalScore >= 11) {
+      $("ruby").show();
+    }
 
+    else if (totalScore <= 5) {
+      $("python").show();
+    }
+
+    else if (totalScore < 11) {
+      $("cSharp").show();
+    }
     event.preventDefault();
   });
 });
